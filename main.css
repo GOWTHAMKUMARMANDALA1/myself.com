@@ -562,19 +562,11 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
-    .menu-btn{
-        display: block;
-        z-index: 1000;
-    }
 }
 
 @media (max-width:991px){
     .max-width{
         padding:0 50px;
-    }
-    .menu-btn{
-        display: block;
-        z-index: 1000;
     }
 }
 
@@ -585,11 +577,11 @@ footer span a:hover{
     }
     .menu-btn{
         display: block;
-        z-index: 1000;
+        z-index: 999;
     }
     
     .menu-btn i.active::before{
-        content: "\f00d";
+        content: "close";
     }
     .navbar .menu{
         position: fixed;
@@ -654,10 +646,6 @@ footer span a:hover{
     .mainlogo img{
         display: flex;
     }
-    .menu-btn{
-        display: block;
-        z-index: 1000;
-    }
     .max-width{
         padding:0 23px;
     }
@@ -684,10 +672,6 @@ footer span a:hover{
 @media (max-width:500px){
     .mainlogo img{
         display: flex;
-    }
-    .menu-btn{
-        display: block;
-        z-index: 1000;
     }
     .home .home-content .text-2{
         font-size: 50px;
